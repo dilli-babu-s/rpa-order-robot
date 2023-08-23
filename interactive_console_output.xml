@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on linux)" generated="20230823 13:56:25.716" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="/home/ubuntu/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Write table to CSV">
+<msg timestamp="20230823 13:56:29.515" level="FAIL">No keyword with name 'Write table to CSV' found.</msg>
+<status status="FAIL" starttime="20230823 13:56:29.515" endtime="20230823 13:56:29.516"/>
+</kw>
+<kw name="Write table to CSV" library="RPA.Tables">
+<doc>Write a table as a CSV file.</doc>
+<msg timestamp="20230823 13:56:46.350" level="FAIL">Keyword 'RPA.Tables.Write table to CSV' expected 2 to 6 arguments, got 0.</msg>
+<status status="FAIL" starttime="20230823 13:56:46.350" endtime="20230823 13:56:46.350"/>
+</kw>
+<kw name="Read table from CSV" library="RPA.Tables">
+<arg>path</arg>
+<doc>Read a CSV file as a table.</doc>
+<msg timestamp="20230823 13:58:06.983" level="FAIL">FileNotFoundError: [Errno 2] No such file or directory: 'path'</msg>
+<status status="FAIL" starttime="20230823 13:58:06.982" endtime="20230823 13:58:06.983"/>
+</kw>
+<status status="PASS" starttime="20230823 13:56:25.746" endtime="20230823 14:01:35.116"/>
+</kw>
+<status status="PASS" starttime="20230823 13:56:25.746" endtime="20230823 14:01:35.117"/>
+</test>
+<status status="PASS" starttime="20230823 13:56:25.717" endtime="20230823 14:01:35.118"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
